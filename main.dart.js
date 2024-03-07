@@ -96992,8 +96992,7 @@ case 1:return A.P(p,r)}})
 return A.R($async$CH,r)}}
 A.ail.prototype={}
 A.QP.prototype={
-F(a){var s=A.bh(J.V($.bK.an().a,"token"))
-return new A.Dc((s==null?"":s)===""?B.lH:B.jP,!1,null)}}
+F(a){return new A.Dc(A.bh(J.V($.bK.an().a,"token")).length===0?B.lH:B.jP,!1,null)}}
 A.w5.prototype={}
 A.xN.prototype={}
 A.TE.prototype={}
